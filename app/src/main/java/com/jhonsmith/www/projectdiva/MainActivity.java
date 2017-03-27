@@ -190,7 +190,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
-            Log.e(TAG, "purchase:"+productId+"-->"+skus.get(productId).get("price")+","+skus.get(productId).get("currency"));
+            //Log.e(TAG, "purchase:"+productId+"-->"+skus.get(productId).get("price")+","+skus.get(productId).get("currency"));
 
             /*AppsFlyerLib.getInstance().validateAndTrackInAppPurchase(mContext, base64EncodedPublicKey, dataSignature, purchaseData,
                     "HK$8.00", "HKD", new HashMap<String, String>());*/
